@@ -10,8 +10,8 @@ public class MediaIdades {
         for(int i = 0; i <10 ;i ++){
             System.out.println("Informe a idade "+i);
             idade = input.nextInt();
-            soma = idade + soma;
+            soma = idade+ soma;
         }
-        System.out.println("A média das idades é: "+soma/10);
+        System.out.println ("A média das idades é: "+soma/10);
     }
 }
